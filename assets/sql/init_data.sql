@@ -4,3 +4,4 @@ INSERT INTO filmes (titulo) VALUES
    ('Entre Facas e Segredos'),
    ('A Sociedade do Anel'),
    ('O Hobbit');
+   ('Olá Mundo')
