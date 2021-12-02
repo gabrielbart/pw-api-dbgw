@@ -1,9 +1,28 @@
-GET https://8080-coffee-vulture-9g07xn7b.ws-us17.gitpod.io/8080-coffee-vulture-9g07xn7b.ws-us17.gitpod.io/filmes
+@url = https://8080-coffee-mammal-kpw6dvir.ws-us21.gitpod.io
 
 ###
-POST https://8080-coffee-vulture-9g07xn7b.ws-us17.gitpod.io/8080-coffee-vulture-9g07xn7b.ws-us17.gitpod.io/filmes
+GET {{url}}/filmes
+
+###
+POST {{url}}/filmes
 Content-Type: application/json
 
 {
     "titulo": "Exemplo"
+}
+
+###
+PUT {{url}}/filmes/4
+Content-Type: application/json
+
+{
+    "titulo": "Ghostbusters"
+}
+
+###
+DELETE {{url}}/filmes
+Content-Type: application/json
+
+{
+    "id": 4
 }
